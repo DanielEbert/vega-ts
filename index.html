@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="p-2 text-2xl">Hello World</div>
+    <div class="flex">
+      <div id="vis"></div>
+      <label class="pr-1" for="tx-sensors">Selected TX Sensors:</label>
+      <select
+        id="txsensors"
+        class="block w-14 h-40 rounded-e-lg border border-s-2 border-gray-300 border-s-gray-100 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+        multiple
+      >
+        <option selected value="1">1</option>
+        <option selected value="2">2</option>
+        <option selected value="3">3</option>
+        <option selected value="4">4</option>
+        <option selected value="5">5</option>
+        <option selected value="6">6</option>
+        <option selected value="7">7</option>
+      </select>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
